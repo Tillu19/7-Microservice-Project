@@ -9,7 +9,7 @@ PID_DIR="$LOG_DIR/pids"
 mkdir -p "$LOG_DIR" "$PID_DIR"
 
 echo "=========================================="
-echo " DevOps Shack - Polyglot Microservices"
+echo " Pythonlife - DevOps Microservices"
 echo " Setup + Startup"
 echo "=========================================="
 
