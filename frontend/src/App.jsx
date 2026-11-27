@@ -207,7 +207,7 @@ export default function App() {
 
   return <div className="shell">
     <aside>
-      <div className="brand"><b>DS</b><div><strong>Polyglot Commerce</strong><small>DevOps Shack</small></div></div>
+      <div className="brand"><b>DS</b><div><strong>Krishna Commerce</strong><small>Pythonlfe-DevOps Krishna</small></div></div>
       <nav>{nav.map(([k,i,l])=><button key={k} className={tab===k?"active":""} onClick={()=>setTab(k)}><span>{i}</span>{l}</button>)}</nav>
       <div className="stack"><span className="eyebrow">7 LANGUAGES</span><p>Java · Go · Node.js · Python · C# · Ruby · PHP</p><small>● All local, no Docker required</small></div>
     </aside>
@@ -227,7 +227,7 @@ export default function App() {
 
       {tab==="overview"&&<>
         <section className="hero card">
-          <div><Pill tone="blue">POLYGLOT MICROSERVICES</Pill><h2>Seven independent backends.<br/>One seamless product.</h2>
+          <div><Pill tone="blue">KRISHNA MICROSERVICES</Pill><h2>Seven independent backends.<br/>One seamless product.</h2>
           <p>Every backend owns its data and communicates over REST. Run the entire platform directly on your machine.</p>
           <div className="actions"><button className="primary" onClick={()=>setTab("catalog")}>Browse products →</button><button className="secondary" onClick={()=>setTab("analytics")}>View analytics</button></div></div>
           <div className="orb"><b>REST</b>{["Java","Go","Node","Python","C#","Ruby","PHP"].map((x,i)=><span key={x} style={{"--i":i}}>{x}</span>)}</div>
@@ -335,7 +335,7 @@ function Login({onLogin}) {
     }catch(e){setError(e.message)}
   }
   return <div className="loginPage">
-    <section className="loginVisual"><div className="brand light"><b>DS</b><div><strong>DevOps Shack</strong><small>Polyglot Microservices Lab</small></div></div>
+    <section className="loginVisual"><div className="brand light"><b>DS</b><div><strong>DevOps-krishna</strong><small>Krishna Microservices Lab</small></div></div>
       <div><Pill tone="blue">HANDS-ON ARCHITECTURE</Pill><h1>Seven languages.<br/>One microservice platform.</h1><p>Learn database ownership, REST communication and independent services using one complete application.</p></div>
       <div className="tech">{["Java","Go","Node.js","Python","C#","Ruby","PHP"].map(x=><span key={x}>{x}</span>)}</div>
     </section>
@@ -346,7 +346,7 @@ function Login({onLogin}) {
       <label>Password<input type="password" required value={form.password} onChange={e=>setForm({...form,password:e.target.value})}/></label>
       <button className="primary wide">{mode==="login"?"Sign in →":"Register & sign in →"}</button>
       <button type="button" className="link" onClick={()=>setMode(mode==="login"?"register":"login")}>{mode==="login"?"Need an account? Register":"Already registered? Sign in"}</button>
-      <div className="demo"><strong>Demo</strong><span>admin@devopsshack.com</span><code>admin123</code></div>
+      <div className="demo"><strong>Demo</strong><span>pythonlife@devopskrishna.com</span><code>admin123</code></div>
     </form>
   </div>
 }
