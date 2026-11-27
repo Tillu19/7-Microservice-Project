@@ -6,7 +6,7 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 PID_DIR="$ROOT_DIR/logs/pids"
 
 echo "=========================================="
-echo " DevOps Shack - Stopping Microservices"
+echo " Pythonlife - Stopping Microservices"
 echo "=========================================="
 
 if [ ! -d "$PID_DIR" ]; then
